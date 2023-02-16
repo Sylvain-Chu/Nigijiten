@@ -1,0 +1,14 @@
+import React from 'react'
+import Cookies from 'js-cookie';
+
+
+export default function Profil(){
+    return (
+        <div>
+            <h1>
+                Profil
+            </h1>   
+            <p>Bonjour {Cookies.get('sessionFirstName')}</p>
+        </div>
+    )
+}

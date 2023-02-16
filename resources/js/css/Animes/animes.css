@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    font-family: Poppins;
+    color: white;
+    
+}
+
+.App, html {
+    background-color: rgb(23, 25, 31);
+}
+
+/* rgb(30, 34, 44); */
+
+.Animes {
+    background-color: rgb(23, 25, 31);
+    min-height: 100vh;
+}
+
+/* ---------------HEADER-------------------- */
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header.centreDroite.contenaire, .header.centreGauche.contenaire {
+    height: 65vh;
+    display: flex; 
+}
+
+.header.centreGauche.contenaire {
+    width: 40%;
+    flex-direction: column; 
+}
+
+
+.header.centreGauche.petit.contenaire {
+    height: min-content;
+    width: 100%;
+    
+}
+
+.header.centreGauche.titre, .header.centreGauche.description, .header.centreGauche.tag, .header.centreGauche.addList{
+    height: auto;
+    
+}
+
+.header.centreGauche.titre > h2{
+    width: 100%; 
+    text-align: left;
+}
+
+.header.centreGauche.titre {
+    font-size: 25px;
+    margin-bottom: 3vh;
+    width: 75%;
+    
+}
+.header.centreGauche.tag {
+    border: 2px solid rgb(23, 25, 31);
+    width: min-content;
+    border-radius: 25%;
+    background-color: rgb(30, 34, 44); 
+    margin-bottom: 1vh;
+}
+
+.header.centreGauche.tag > p {
+    padding: 5px;
+}
+
+.header.centreGauche.description {
+    opacity: 0.85;
+    width: auto;
+    max-height: 15vh;
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-bottom: 5vh;
+    text-align: left;
+    padding-right: 0px;
+    overflow: auto;
+}
+
+.header.centreGauche.addList{
+    width: 25%;
+}
+
+.header.centreGauche.addList a{
+    background-color: red;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+.header.gauche, .header.droite {
+    margin: auto 0 auto 0;
+}
+
+.header.centreDroite.image {
+    margin: auto 0 auto 0;
+}
+
+.header.centreDroite.image > img {
+    height: 50vh;
+    border-radius: 15px;
+}
+
+
+/* -------------- BODY -------------- */
+.body {
+    margin-bottom: 10vh;
+}
+
+.anime.contenaire {
+    display: flex;
+    justify-content: space-around;
+}
+
+.anime.presentation {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 20%;
+    background-size: 100%;
+    transition: background-size 0.2s ease-in-out;
+}
+
+.anime.presentation:hover {
+    background-size: 105%;
+}
+
+.anime.next {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.category.haut {
+    margin-left: 2%;
+    width: auto;
+}
+
+.bar {
+    border-bottom: 5px solid red;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    width: 25%;
+}
+
+.anime.haut {
+    width: min-content;
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 7px;
+    
+}
+
+.anime.bas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anime.gauche, .anime.droit {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 7px;
+}
+
+.anime.presentation a {
+    all: unset;
+    height: 20vh;
+}
+
+.anime.link {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    background-color: #32555c;
+    height: 7px;
+    opacity: 1;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e222c;
+    border-radius: 8px 8px 8px 8px;
+}
+
+::-webkit-scrollbar:hover {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    height: 10px;
+}
+

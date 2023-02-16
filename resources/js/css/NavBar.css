@@ -1,0 +1,135 @@
+nav {
+    background-color: rgb(30, 34, 44);
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 9vh;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#NBlogo {
+    height: 6vh;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.NBgauche {
+    width: 30%;
+    margin: auto 0 auto 0;
+}
+
+.NBdroite {
+    width: 70%;
+    display: flex;
+}
+
+.NBsearch, .NBmenuderoulant, .NBauth {
+    margin: auto 0 auto 0;
+}
+
+.NBsearch {
+    display: flex;
+    background-color: rgb(48, 53, 65);
+    padding: 8px 8px 4px 8px;
+    border-radius: 7px;
+    width: 42%;
+    margin-right: 10%;
+    
+}
+
+.NBcontenaireInput {
+    width: 90%;
+}
+
+.NBsearch > div > input {
+    border: none;
+    background-color: rgb(48, 53, 65);
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    padding-top: 0;
+}
+
+.NBsearch > div > input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.NBsearch > div > input:focus {
+    outline: none;
+    background-color: rgb(48, 53, 65);
+}
+
+.NBsearch > .NBimgLogo {
+    text-align: center;
+    margin: auto 10px auto 5px;
+}
+
+.NBmenuderoulant {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+
+#NBimgLogo {
+    width:20px;
+    height:20px;
+    margin-top: 2px;
+}
+
+.NBanime {
+    display: flex;
+    width: 200px;
+}
+
+.NBlogoAnimate {
+    width: 150px;
+}
+
+
+.NBContenaireLink {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.NBcontenaireTextLink {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.NBlianimeContenaire {
+    display: flex;
+}
+
+.NBmenuDeroulant {
+    width: 35%;
+}
+
+
+.NBauth {
+    background-color: red;
+    border-radius: 7px;
+    width: 35%;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 0.5vh;
+}
+
+.NBContenaireLink > div {
+    padding: 2px;
+}
